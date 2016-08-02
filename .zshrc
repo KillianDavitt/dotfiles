@@ -1,5 +1,4 @@
 clear
-pass="I1n56YbF83JLj#IY^la6"
 source ~/.userFunctions.sh
 
 export PATH=$PATH:/usr/local/go/bin
