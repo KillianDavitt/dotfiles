@@ -1,13 +1,11 @@
 filetype off
 execute pathogen#infect()
-call pathogen#infect('bundle/{}')
-call pathogen#infect('/home/killian/drive/linux/.vim/bundle/*')
 Helptags
 
 filetype on
 
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
-
+set mouse=a
 set rtp+=$GOPATH/src/github.com/golang/lint/misc/vim
 set nu
 set autoindent
@@ -15,8 +13,12 @@ set tabstop=4
 set expandtab
 syntax on
 set background=dark
+let g:solarized_termcolors=256
+set t_co=256
 
+color solarized
 set laststatus=2
+let g:airline_powerline_fonts = 1
 let g:Powerline_symbols = 'fancy'
 "set statusline+=%#warningmsg#
 "set statusline+=%{SyntasticStatuslineFlag()}
