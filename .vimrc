@@ -36,3 +36,5 @@ let g:syntastic_mode_map = {
 
 nnoremap <F5> "=strftime("%H:%M")<CR>P
 inoremap <F5> <C-R>=strftime("%H:%M")<CR>
+
+autocmd WinEnter * if winnr('$') == 1 && ! empty(&buftype) && ! &modified | quit | endif

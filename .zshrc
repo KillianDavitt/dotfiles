@@ -8,6 +8,9 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 
+
+# Found most of the following on some website, can't remember where. I didn't write it anyway
+
 #Color table from: http://www.understudy.net/custom.html
 fg_black=%{$'\e[0;30m'%}
 fg_red=%{$'\e[0;31m'%}
@@ -84,7 +87,7 @@ setopt extendedhistory
  
 #ALIASES
 ##ls, the common ones I use a lot shortened for rapid fire usage
-alias ls='ls --color' #I like color
+#alias ls='ls --color' #I like color
 alias l='ls -lFh'     #size,show type,human readable
 alias la='ls -lAFh'   #long list,show almost all,show type,human readable
 alias lr='ls -tRFh'   #sorted by date,recursive,show type,human readable
