@@ -1,3 +1,9 @@
 Host netsoc
     HostName netsoc.tcd.ie
     User killiand
+
+Host macneill
+    HostName macneill.scss.tcd.ie
+    User davittk
+
+
