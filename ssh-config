@@ -4,6 +4,20 @@ Host netsoc
 
 Host macneill
     HostName macneill.scss.tcd.ie
+    IdentityFile /home/killian/.ssh/id_macneill
     User davittk
 
+Host do
+    HostName stats.killiandavitt.me
+    User killian
+    IdentityFile /home/killian/.ssh/id_do
 
+Host distro
+    HostName 137.74.47.110
+    User killian
+    IdentityFile /home/killian/.ssh/id_distro
+
+Host harambe
+    HostName killiandavitt.me
+    User killian
+    IdentityFile /home/killian/.ssh/id_harambe

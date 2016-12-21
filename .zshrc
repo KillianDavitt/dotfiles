@@ -1,6 +1,5 @@
 clear
-source ~/.userFunctions.sh
-
+alias docker-yesod-dev="stack --docker-run-args='--net=bridge --publish=3000:3000' exec -- yesod devel"
 export PATH=$PATH:/usr/local/go/bin
 
 export GOPATH=$HOME/go
@@ -107,3 +106,16 @@ alias lt='ls -ltFh'   #long list,sorted by date,show type,human readable
 ## add a new screen , or entire session, name it, then ssh to the host
 ## Replace HOST with what you want the screen session named, surround with double quotes if there is a space
 #alias sshost='screen -t HOST shost
+
+
+alias list='/home/killian/git/glassrooms/glassrooms.sh list'
+alias book='/home/killian/git/glassrooms/glassrooms.sh book'
+alias cancel='/home/killian/git/glassrooms/glassrooms.sh cancel'
+#alias dafny='/home/killian/boog/Dafny.exe'
+alias emacs='emacs -nw'
+PATH=$PATH:/home/killian/bin/          
+alias nebula="ssh macneill 'ssh nebula'"
+alias records="python3 /home/killian/git/Records/client/main.py"
+alias stackbant="stack build && stack exec ${pwd}"
+export PANEL_FIFO="/tmp/panel-fifo"
+setxkbmap -option ctrl:nocaps  
